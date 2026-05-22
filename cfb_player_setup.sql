@@ -8,7 +8,7 @@ CREATE TABLE conference (
 	CONSTRAINT conference_PK1 PRIMARY KEY (conference_id)
 );
 
-BULK INSERT conference FROM 'C:\Users\zcartle\Documents\Github\cfb_players\cfb_conferences.csv'
+BULK INSERT conference FROM [Enter Conferences CSV File]
 		WITH (FIELDTERMINATOR = ',', ROWTERMINATOR = '\n', FIRSTROW = 2);
 
 -- TABLE 2: Team Information
@@ -24,7 +24,7 @@ CREATE TABLE team (
 );
 
 
-BULK INSERT team FROM 'C:\Users\zcartle\Documents\Github\cfb_players\cfb_teams.csv'
+BULK INSERT team FROM '[Enter Teams CSV File]'
 		WITH (FIELDTERMINATOR = ',', ROWTERMINATOR = '\n', FIRSTROW = 2);
 
 -- TABLE 3: Player Information
