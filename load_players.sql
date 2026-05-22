@@ -11,7 +11,7 @@ BEGIN TRY
 	-- TRUNCATE TABLE team;
 
 	-- Insert data from CSV file into staging table
-	BULK INSERT player_staging FROM 'C:\Users\zcartle\Documents\GitHub\cfb_players\cfb_players.csv\part-00000-6fc015d2-6720-40c8-b063-9c5c66b15afa-c000.csv'
+	BULK INSERT player_staging FROM '[Enter ETL Output File]'
 		WITH (FIELDTERMINATOR = ',', ROWTERMINATOR = '\n', FIRSTROW = 2);
 
 	-- View the staging table to see the data
