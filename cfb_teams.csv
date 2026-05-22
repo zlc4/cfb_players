@@ -1,0 +1,201 @@
+id,conference,college,name,full_name,abbreviation
+1,1,Boston College,Eagles,Boston College Eagles,BC
+2,1,California,Golden Bears,California Golden Bears,CAL
+3,1,Clemson,Tigers,Clemson Tigers,CLEM
+4,1,Duke,Blue Devils,Duke Blue Devils,DUKE
+5,1,Florida State,Seminoles,Florida State Seminoles,FSU
+6,1,Georgia Tech,Yellow Jackets,Georgia Tech Yellow Jackets,GT
+7,1,Louisville,Cardinals,Louisville Cardinals,LOU
+8,1,Miami,Hurricanes,Miami Hurricanes,MIA
+9,1,NC State,Wolfpack,NC State Wolfpack,NCSU
+10,1,North Carolina,Tar Heels,North Carolina Tar Heels,UNC
+11,1,Pittsburgh,Panthers,Pittsburgh Panthers,PITT
+12,1,SMU,Mustangs,SMU Mustangs,SMU
+13,1,Stanford,Cardinal,Stanford Cardinal,STAN
+14,1,Syracuse,Orange,Syracuse Orange,SYR
+15,1,Virginia,Cavaliers,Virginia Cavaliers,UVA
+16,1,Virginia Tech,Hokies,Virginia Tech Hokies,VT
+17,1,Wake Forest,Demon Deacons,Wake Forest Demon Deacons,WAKE
+18,2,Army,Black Knights,Army Black Knights,ARMY
+19,2,Charlotte,49ers,Charlotte 49ers,CLT
+20,2,East Carolina,Pirates,East Carolina Pirates,ECU
+21,2,Florida Atlantic,Owls,Florida Atlantic Owls,FAU
+22,2,Memphis,Tigers,Memphis Tigers,MEM
+23,2,Navy,Midshipmen,Navy Midshipmen,NAVY
+24,2,North Texas,Mean Green,North Texas Mean Green,UNT
+25,2,Rice,Owls,Rice Owls,RICE
+26,2,South Florida,Bulls,South Florida Bulls,USF
+27,2,Temple,Owls,Temple Owls,TEM
+28,2,Tulane,Green Wave,Tulane Green Wave,TULN
+29,2,Tulsa,Golden Hurricane,Tulsa Golden Hurricane,TLSA
+30,2,UAB,Blazers,UAB Blazers,UAB
+31,2,UTSA,Roadrunners,UTSA Roadrunners,UTSA
+32,3,Arizona State,Sun Devils,Arizona State Sun Devils,ASU
+33,3,Arizona,Wildcats,Arizona Wildcats,ARIZ
+34,3,BYU,Cougars,BYU Cougars,BYU
+35,3,Baylor,Bears,Baylor Bears,BAY
+36,3,Cincinnati,Bearcats,Cincinnati Bearcats,CIN
+37,3,Colorado,Buffaloes,Colorado Buffaloes,COLO
+38,3,Houston,Cougars,Houston Cougars,HOU
+39,3,Iowa State,Cyclones,Iowa State Cyclones,ISU
+40,3,Kansas,Jayhawks,Kansas Jayhawks,KU
+41,3,Kansas State,Wildcats,Kansas State Wildcats,KSU
+42,3,Oklahoma State,Cowboys,Oklahoma State Cowboys,OKST
+43,3,TCU,Horned Frogs,TCU Horned Frogs,TCU
+44,3,Texas Tech,Red Raiders,Texas Tech Red Raiders,TTU
+45,3,UCF,Knights,UCF Knights,UCF
+46,3,Utah,Utes,Utah Utes,UTAH
+47,3,West Virginia,Mountaineers,West Virginia Mountaineers,WVU
+48,4,Illinois,Fighting Illini,Illinois Fighting Illini,ILL
+49,4,Indiana,Hoosiers,Indiana Hoosiers,IU
+50,4,Iowa,Hawkeyes,Iowa Hawkeyes,IOWA
+51,4,Maryland,Terrapins,Maryland Terrapins,MD
+52,4,Michigan State,Spartans,Michigan State Spartans,MSU
+53,4,Michigan,Wolverines,Michigan Wolverines,MICH
+54,4,Minnesota,Golden Gophers,Minnesota Golden Gophers,MINN
+55,4,Nebraska,Cornhuskers,Nebraska Cornhuskers,NEB
+56,4,Northwestern,Wildcats,Northwestern Wildcats,NU
+57,4,Ohio State,Buckeyes,Ohio State Buckeyes,OSU
+58,4,Oregon,Ducks,Oregon Ducks,ORE
+59,4,Penn State,Nittany Lions,Penn State Nittany Lions,PSU
+60,4,Purdue,Boilermakers,Purdue Boilermakers,PUR
+61,4,Rutgers,Scarlet Knights,Rutgers Scarlet Knights,RUTG
+62,4,UCLA,Bruins,UCLA Bruins,UCLA
+63,4,USC,Trojans,USC Trojans,USC
+64,4,Washington,Huskies,Washington Huskies,WASH
+65,4,Wisconsin,Badgers,Wisconsin Badgers,WIS
+66,5,Delaware,Blue Hens,Delaware Blue Hens,DEL
+67,5,Florida International,Panthers,Florida International Panthers,FIU
+68,5,Jacksonville State,Gamecocks,Jacksonville State Gamecocks,JXST
+69,5,Kennesaw State,Owls,Kennesaw State Owls,KENN
+70,5,Liberty,Flames,Liberty Flames,LIB
+71,5,Louisiana Tech,Bulldogs,Louisiana Tech Bulldogs,LT
+72,5,Middle Tennessee,Blue Raiders,Middle Tennessee Blue Raiders,MTSU
+73,5,Missouri State,Bears,Missouri State Bears,MOST
+74,5,New Mexico State,Aggies,New Mexico State Aggies,NMSU
+75,5,Sam Houston,Bearkats,Sam Houston Bearkats,SHSU
+76,5,UTEP,Miners,UTEP Miners,UTEP
+77,5,Western Kentucky,Hilltoppers,Western Kentucky Hilltoppers,WKU
+78,6,Notre Dame,Fighting Irish,Notre Dame Fighting Irish,ND
+79,6,UConn,Huskies,UConn Huskies,CONN
+80,7,Akron,Zips,Akron Zips,AKR
+81,7,Ball State,Cardinals,Ball State Cardinals,BALL
+82,7,Bowling Green,Falcons,Bowling Green Falcons,BGSU
+83,7,Buffalo,Bulls,Buffalo Bulls,BUF
+84,7,Central Michigan,Chippewas,Central Michigan Chippewas,CMU
+85,7,Eastern Michigan,Eagles,Eastern Michigan Eagles,EMU
+86,7,Kent State,Golden Flashes,Kent State Golden Flashes,KENT
+87,7,Massachusetts,Minutemen,Massachusetts Minutemen,MASS
+88,7,Miami (OH),RedHawks,Miami (OH) RedHawks,M-OH
+89,7,Northern Illinois,Huskies,Northern Illinois Huskies,NIU
+90,7,Ohio,Bobcats,Ohio Bobcats,OHIO
+91,7,Toledo,Rockets,Toledo Rockets,TOL
+92,7,Western Michigan,Broncos,Western Michigan Broncos,WMU
+93,8,Air Force,Falcons,Air Force Falcons,AF
+94,8,Boise State,Broncos,Boise State Broncos,BOIS
+95,8,Colorado State,Rams,Colorado State Rams,CSU
+96,8,Fresno State,Bulldogs,Fresno State Bulldogs,FRES
+97,8,Hawai'i,Rainbow Warriors,Hawai'i Rainbow Warriors,HAW
+98,8,Nevada,Wolf Pack,Nevada Wolf Pack,NEV
+99,8,New Mexico,Lobos,New Mexico Lobos,UNM
+100,8,San Diego State,Aztecs,San Diego State Aztecs,SDSU
+101,8,San José State,Spartans,San José State Spartans,SJSU
+102,8,UNLV,Rebels,UNLV Rebels,UNLV
+103,8,Utah State,Aggies,Utah State Aggies,USU
+104,8,Wyoming,Cowboys,Wyoming Cowboys,WYO
+105,9,Oregon State,Beavers,Oregon State Beavers,ORST
+106,9,Washington State,Cougars,Washington State Cougars,WSU
+107,10,Alabama,Crimson Tide,Alabama Crimson Tide,ALA
+108,10,Arkansas,Razorbacks,Arkansas Razorbacks,ARK
+109,10,Auburn,Tigers,Auburn Tigers,AUB
+110,10,Florida,Gators,Florida Gators,FLA
+111,10,Georgia,Bulldogs,Georgia Bulldogs,UGA
+112,10,Kentucky,Wildcats,Kentucky Wildcats,UK
+113,10,LSU,Tigers,LSU Tigers,LSU
+114,10,Mississippi State,Bulldogs,Mississippi State Bulldogs,MSST
+115,10,Missouri,Tigers,Missouri Tigers,MIZ
+116,10,Oklahoma,Sooners,Oklahoma Sooners,OU
+117,10,Ole Miss,Rebels,Ole Miss Rebels,MISS
+118,10,South Carolina,Gamecocks,South Carolina Gamecocks,SC
+119,10,Tennessee,Volunteers,Tennessee Volunteers,TENN
+120,10,Texas A&M,Aggies,Texas A&M Aggies,TA&M
+121,10,Texas,Longhorns,Texas Longhorns,TEX
+122,10,Vanderbilt,Commodores,Vanderbilt Commodores,VAN
+123,11,App State,Mountaineers,App State Mountaineers,APP
+124,11,Arkansas State,Red Wolves,Arkansas State Red Wolves,ARST
+125,11,Coastal Carolina,Chanticleers,Coastal Carolina Chanticleers,CCU
+126,11,Georgia Southern,Eagles,Georgia Southern Eagles,GASO
+127,11,Georgia State,Panthers,Georgia State Panthers,GAST
+128,11,James Madison,Dukes,James Madison Dukes,JMU
+129,11,Louisiana,Ragin' Cajuns,Louisiana Ragin' Cajuns,UL
+130,11,Marshall,Thundering Herd,Marshall Thundering Herd,MRSH
+131,11,Old Dominion,Monarchs,Old Dominion Monarchs,ODU
+132,11,South Alabama,Jaguars,South Alabama Jaguars,USA
+133,11,Southern Miss,Golden Eagles,Southern Miss Golden Eagles,USM
+134,11,Texas State,Bobcats,Texas State Bobcats,TXST
+135,11,Troy,Trojans,Troy Trojans,TROY
+136,11,UL Monroe,Warhawks,UL Monroe Warhawks,ULM
+137,12,Cal Poly,Mustangs,Cal Poly Mustangs,CP
+138,12,Eastern Washington,Eagles,Eastern Washington Eagles,EWU
+139,12,Idaho State,Bengals,Idaho State Bengals,IDST
+140,12,Idaho,Vandals,Idaho Vandals,IDHO
+141,12,Montana,Grizzlies,Montana Grizzlies,MONT
+142,12,Montana State,Bobcats,Montana State Bobcats,MTST
+143,12,Northern Arizona,Lumberjacks,Northern Arizona Lumberjacks,NAU
+144,12,Northern Colorado,Bears,Northern Colorado Bears,UNCO
+145,12,Portland State,Vikings,Portland State Vikings,PRST
+146,12,Sacramento State,Hornets,Sacramento State Hornets,SAC
+147,12,UC Davis,Aggies,UC Davis Aggies,UCD
+148,12,Weber State,Wildcats,Weber State Wildcats,WEB
+149,13,Bryant,Bulldogs,Bryant Bulldogs,BRY
+150,13,Campbell,Fighting Camels,Campbell Fighting Camels,CAM
+151,13,Elon,Phoenix,Elon Phoenix,ELON
+152,13,Hampton,Pirates,Hampton Pirates,HAMP
+153,13,Maine,Black Bears,Maine Black Bears,ME
+154,13,Monmouth,Hawks,Monmouth Hawks,MONM
+155,13,New Hampshire,Wildcats,New Hampshire Wildcats,UNH
+156,13,North Carolina A&T,Aggies,North Carolina A&T Aggies,NCAT
+157,13,Rhode Island,Rams,Rhode Island Rams,URI
+158,13,Stony Brook,Seawolves,Stony Brook Seawolves,STBK
+159,13,Towson,Tigers,Towson Tigers,TOW
+160,13,UAlbany,Great Danes,UAlbany Great Danes,UALB
+161,13,Villanova,Wildcats,Villanova Wildcats,VILL
+162,13,William & Mary,Tribe,William & Mary Tribe,W&M
+163,14,Merrimack,Warriors,Merrimack Warriors,MRMK
+164,14,Sacred Heart,Pioneers,Sacred Heart Pioneers,SHU
+165,15,Brown,Bears,Brown Bears,BRWN
+166,15,Columbia,Lions,Columbia Lions,COLU
+167,15,Cornell,Big Red,Cornell Big Red,COR
+168,15,Dartmouth,Big Green,Dartmouth Big Green,DART
+169,15,Harvard,Crimson,Harvard Crimson,HARV
+170,15,Pennsylvania,Quakers,Pennsylvania Quakers,PENN
+171,15,Princeton,Tigers,Princeton Tigers,PRIN
+172,15,Yale,Bulldogs,Yale Bulldogs,YALE
+173,16,Delaware State,Hornets,Delaware State Hornets,DSU
+174,16,Howard,Bison,Howard Bison,HOW
+175,16,Morgan State,Bears,Morgan State Bears,MORG
+176,16,Norfolk State,Spartans,Norfolk State Spartans,NORF
+177,16,North Carolina Central,Eagles,North Carolina Central Eagles,NCCU
+178,16,South Carolina State,Bulldogs,South Carolina State Bulldogs,SCST
+179,17,Illinois State,Redbirds,Illinois State Redbirds,ILST
+180,17,Indiana State,Sycamores,Indiana State Sycamores,INST
+181,17,Murray State,Racers,Murray State Racers,MUR
+182,17,North Dakota,Fighting Hawks,North Dakota Fighting Hawks,UND
+183,17,North Dakota State,Bison,North Dakota State Bison,NDSU
+184,17,Northern Iowa,Panthers,Northern Iowa Panthers,UNI
+185,17,South Dakota,Coyotes,South Dakota Coyotes,SDAK
+186,17,South Dakota State,Jackrabbits,South Dakota State Jackrabbits,SDST
+187,17,Southern Illinois,Salukis,Southern Illinois Salukis,SIU
+188,17,Youngstown State,Penguins,Youngstown State Penguins,YSU
+189,18,Central Connecticut,Blue Devils,Central Connecticut Blue Devils,CCSU
+190,18,Duquesne,Dukes,Duquesne Dukes,DUQ
+191,18,Long Island University,Sharks,Long Island University Sharks,LIU
+192,18,Mercyhurst,Lakers,Mercyhurst Lakers,MERC
+193,18,New Haven,Chargers,New Haven Chargers,NHVN
+194,18,Robert Morris,Colonials,Robert Morris Colonials,RMU
+195,18,Saint Francis,Red Flash,Saint Francis Red Flash,SFPA
+196,18,Stonehill,Skyhawks,Stonehill Skyhawks,STO
+197,18,Wagner,Seahawks,Wagner Seahawks,WAG
+198,19,Charleston Southern,Buccaneers,Charleston Southern Buccaneers,CHSO
+199,19,Eastern Illinois,Panthers,Eastern Illinois Panthers,EIU
+200,19,Gardner-Webb,Runnin' Bulldogs,Gardner-Webb Runnin' Bulldogs,GWEB
