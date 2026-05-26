@@ -1,7 +1,7 @@
 # NAME: Zach Cartledge
 # DATE: 4/20/2026
 # PROJECT: College Football Player Database
-# DESCRIPTION: ETL Process for College Football Player Database: https://docs.balldontlie.io/?python#get-all-teams
+# DESCRIPTION: ETL Process for College Football Player Database: https://ncaaf.balldontlie.io/#ncaaf-api
 
 import sys, pandas, datetime, os, requests
 os.environ["PYSPARK_PYTHON"] = sys.executable;
@@ -36,11 +36,6 @@ def extract(team_id):
 
     return df, team_id;
 
-def convert_height_cm(feet, inches):
-    height = (int(feet) * 12) + int(inches);
-    height = int(height *  2.54);
-    return height;
-
 def transform (df, team_id):
     try:
         # Create PySpark DataFrame
@@ -53,16 +48,18 @@ def transform (df, team_id):
         players = players.withColumn('weight', f.col('weight').substr(0,3));
 
         # Transform height to cm
-        players = players.withColumn('height', \
-                f.lit(f'{convert_height_cm(f.col('height').substr(1,1), f.col('height').substr(4,1))} cm'));
+        players = players.withColumn('height(cm)', \
+            (f.regexp_extract('height', r"(\d+)'", 1).cast('int') * 12 * 2.54) +
+            (f.regexp_extract('height', r"(\d+)\"", 1).cast('int') * 2.54));
 
         # Select Fields to Include and Type Cast
         players = players.select(
+            f.col('id'),
             f.col('jersey_number').cast('int'),
             f.col('first_name'),
             f.col('last_name'),
             f.col('position'),
-            f.col('height'),
+            f.col('height(cm)').cast('int'),
             f.col('weight').cast('int'),
             f.col('team_id').cast('int')
         );
