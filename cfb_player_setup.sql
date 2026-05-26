@@ -24,14 +24,15 @@ CREATE TABLE team (
 );
 
 
-BULK INSERT team FROM '[Enter Teams CSV File]'
+BULK INSERT team FROM 'C:\Users\zcartle\Documents\Github\cfb_players\cfb_teams.csv'
 		WITH (FIELDTERMINATOR = ',', ROWTERMINATOR = '\n', FIRSTROW = 2);
 
 -- TABLE 3: Player Information
 CREATE TABLE player (
-	player_id INT NOT NULL IDENTITY (1,1),
+	player_id INT NOT NULL,
 	jersey_number INT NOT NULL,
-	player_name varchar(50) NOT NULL,
+	player_fname varchar(50) NOT NULL,
+	player_lname varchar(50) NOT NULL,
 	position varchar(50) NOT NULL,
 	height varchar(6) NOT NULL,
 	player_weight INT NOT NULL,
@@ -42,8 +43,10 @@ CREATE TABLE player (
 
 -- TABLE 4: Staging Table for reading in players
 CREATE TABLE player_staging (
+	player_id INT NOT NULL,
 	jersey_number INT NOT NULL,
-	player_name varchar(50) NOT NULL,
+	player_fname varchar(50) NOT NULL,
+	player_lname varchar(50) NOT NULL,
 	position varchar(50) NOT NULL,
 	height varchar(6) NOT NULL,
 	player_weight INT NOT NULL,
@@ -52,10 +55,10 @@ CREATE TABLE player_staging (
 
 /*
 -- DROP TABLES
-DROP TABLE conference;
-DROP TABLE team;
-DROP TABLE player;
-DROP TABLE player_staging;
+DROP TABLE IF EXISTS conference;
+DROP TABLE IF EXISTS team;
+DROP TABLE IF EXISTS player;
+DROP TABLE IF EXISTS player_staging;
 */
 
 /*
